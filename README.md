@@ -8,3 +8,6 @@ Chapter 5: Loading and Saving Data in Spark
 Chapter 6: Manipulating Your RDD
 1.A broadcast value can be read by all the workers, but an accumulator can be written by all the workers but read only by the driver. 
 2.The flatMap function is a useful utility function that allows you to write a function that returns an iterable of the type you want and then flattens the results. A simple example of this is a case where you want to parse all of the data, but some of it fails to parse. The flatMap function outputs an empty list if it fails or a list with its success if it works.
+
+Chapter 7:Spark 2.0 Concepts
+1.“What do data scientists want?”
