@@ -11,3 +11,8 @@ Chapter 6: Manipulating Your RDD
 
 Chapter 7:Spark 2.0 Concepts
 1.“What do data scientists want?”
+
+Chapter 9: Foundations of Datasets/DataFrames – The Proverbial Workhorse for DataScientists
+1.For Python and R, the class is still DataFrame, but with all the Dataset APIs. So you can think as of it as this: Datasets in Python and R are called DataFrames. The APIs map exactly, so it is easy to keep the mental model straight.
+2.In Scala and Java, Datasets are the main interface and there is no DataFrame class.
+3.You will still see the name DataFrame, as in DataFrame Reader,DataFrame Writer, and so on. For all practical purposes, the words DataFrame and Dataset are interchangeable. And you will know when the difference matters.
